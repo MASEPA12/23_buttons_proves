@@ -11,13 +11,14 @@ public class manager : MonoBehaviour
     {
         _cameraREF = Camera.main;
     }
+
     public void ChangeSceneColorGreen()
     {
         _cameraREF.backgroundColor = Color.gray;
     }
     public void ChangeSceneColorPink()
     {
-        _cameraREF.backgroundColor = Color.black;
+        _cameraREF.backgroundColor = Color.yellow;
     }
     public void ChangeSceneColorBlue()
     {
